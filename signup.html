@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./home.html" method="get" align="center">
+        <h2>Welcome to</h2>
+        <h1>WOLF's Enclave</h1>
+        <p>Please sign in to proceed</p>
+        <input type="text" name="firstname" placeholder="First Name" required>
+        <input type="text" name="lastname" placeholder="Last Name" required>
+        <br><br>
+        <input type="email" name="useremail" placeholder="E-mail" required> 
+        <input type="password" name="password" placeholder="password" required>
+        <br> <br>
+        <h4>Are you over the age 18?</h4>
+        <label for="agey"> Yes
+            <input id="agey" type="radio" name="ageans" value="Yes">
+        </label>
+        <label for="agen"> No
+            <input id="agen" type="radio" name="ageans" value="Yes">
+        </label>
+        <br><br>
+        <h4>Why you want to join WOLF's Enclave community?</h4>
+        <select name="whywe">
+            <option value="Learn">Learn</option>
+            <option value="Resources">Resources</option>
+            <option value="Just to Explore">Just to Explore</option>
+            <option value="Hire For Projects">Hire For Projects</option>
+            
+        </select>
+        <br><br>
+        <h4>Tell us a little about your likings!</h4>
+        <textarea name="likings" rows="8" cols="80" placeholder="Write within 100 words!!"></textarea>
+        <br><br>
+        <input type="submit" name="" value="Login">
+    </form>
+</body>
+</html>
